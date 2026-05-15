@@ -95,7 +95,7 @@ const Testimonials: React.FC = () => {
           >
 
             {/* Glow */}
-            <div className="absolute -inset-0.5 bg-gradient-to-r from-red-400 to-pink-400 rounded-2xl blur opacity-0 group-hover:opacity-20 transition"></div>
+            <div className="absolute -inset-0.5 bg-linear-to-r from-red-400 to-pink-400 rounded-2xl blur opacity-0 group-hover:opacity-20 transition"></div>
 
             <div className="relative">
 

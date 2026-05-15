@@ -4,11 +4,11 @@ import { SiTypescript, SiTailwindcss, SiMongodb } from "react-icons/si";
 
 const Skills: React.FC = () => {
   return (
-    <section className="py-20 md:py-24 px-6 sm:px-8 md:px-12 lg:px-16 bg-gradient-to-b from-[#f8fafc] to-[#eef2ff] relative overflow-hidden">
+    <section className="py-20 md:py-24 px-6 sm:px-8 md:px-12 lg:px-16 bg-linear-to-b from-[#f8fafc] to-[#eef2ff] relative overflow-hidden">
       
       {/* Background Blobs */}
-      <div className="absolute -top-20 left-0 w-72 md:w-[400px] h-72 md:h-[400px] bg-pink-200 rounded-full blur-3xl opacity-30"></div>
-      <div className="absolute bottom-0 right-0 w-64 md:w-[350px] h-64 md:h-[350px] bg-blue-200 rounded-full blur-3xl opacity-30"></div>
+      <div className="absolute -top-20 left-0 w-72 md:w-100 h-72 md:h-100 bg-pink-200 rounded-full blur-3xl opacity-30"></div>
+      <div className="absolute bottom-0 right-0 w-64 md:w-87.5 h-64 md:h-87.5 bg-blue-200 rounded-full blur-3xl opacity-30"></div>
 
       {/* Heading */}
       <motion.div
@@ -39,7 +39,7 @@ const Skills: React.FC = () => {
           className="group relative backdrop-blur-xl bg-white/30 border border-white/20 p-6 md:p-8 rounded-2xl shadow-lg hover:shadow-xl transition"
         >
           {/* Glow */}
-          <div className="absolute -inset-0.5 bg-gradient-to-r from-pink-400 to-purple-400 rounded-2xl blur opacity-0 group-hover:opacity-30 transition"></div>
+          <div className="absolute -inset-0.5 bg-linear-to-r from-pink-400 to-purple-400 rounded-2xl blur opacity-0 group-hover:opacity-30 transition"></div>
 
           <div className="relative">
             <h3 className="text-lg md:text-xl font-semibold mb-3">
@@ -67,7 +67,7 @@ const Skills: React.FC = () => {
           transition={{delay:0.4}}
           className="group relative backdrop-blur-xl bg-white/30 border border-white/20 p-6 md:p-8 rounded-2xl shadow-lg hover:shadow-xl transition"
         >
-          <div className="absolute -inset-0.5 bg-gradient-to-r from-blue-400 to-cyan-400 rounded-2xl blur opacity-0 group-hover:opacity-30 transition"></div>
+          <div className="absolute -inset-0.5 bg-linear-to-r from-blue-400 to-cyan-400 rounded-2xl blur opacity-0 group-hover:opacity-30 transition"></div>
 
           <div className="relative">
             <h3 className="text-lg md:text-xl font-semibold mb-3">
@@ -95,7 +95,7 @@ const Skills: React.FC = () => {
           transition={{delay:0.6}}
           className="group relative backdrop-blur-xl bg-white/30 border border-white/20 p-6 md:p-8 rounded-2xl shadow-lg hover:shadow-xl transition"
         >
-          <div className="absolute -inset-0.5 bg-gradient-to-r from-purple-400 to-pink-400 rounded-2xl blur opacity-0 group-hover:opacity-30 transition"></div>
+          <div className="absolute -inset-0.5 bg-linear-to-r from-purple-400 to-pink-400 rounded-2xl blur opacity-0 group-hover:opacity-30 transition"></div>
 
           <div className="relative">
             <h3 className="text-lg md:text-xl font-semibold mb-3">

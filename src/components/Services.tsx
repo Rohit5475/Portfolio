@@ -73,7 +73,7 @@ const Services: React.FC = () => {
   const navigate = useNavigate();
 
   return (
-    <section className="py-20 md:py-28 px-6 sm:px-8 md:px-12 lg:px-16 bg-gradient-to-b from-white to-gray-100 relative overflow-hidden">
+    <section className="py-20 md:py-28 px-6 sm:px-8 md:px-12 lg:px-16 bg-linear-to-b from-white to-gray-100 relative overflow-hidden">
 
       {/* Header */}
       <motion.div
